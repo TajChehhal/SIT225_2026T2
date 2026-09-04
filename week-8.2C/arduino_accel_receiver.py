@@ -11,9 +11,9 @@ import csv  # Save data to a CSV file
 import os  # Work with files
 
 
-CLIENT_ID = "Hs7NYE32jfaCj835ccIU2upXdPVdx1LM" # Use specific client id
-CLIENT_SECRET = "8J173Xd8X2p6loTpJ2OS7DdXOJe2mxD6fb7RAI5L5OvxEtqonbzQmkXqcz6aV5F4"  # Use specific client secret key 
-THING_ID = "b81682ae-6491-4650-8103-37947edd4286" # Use Thing iD from metadata tab 
+CLIENT_ID = "" # Use specific client id
+CLIENT_SECRET = ""  # Use specific client secret key 
+THING_ID = "" # Use Thing iD from metadata tab 
 
 VARIABLE_NAMES = {"x": "Accelerometer_X", "y": "Accelerometer_Y", "z": "Accelerometer_Z"}  # Names of the accelerometer values
 POLL_INTERVAL_S = 0.5  # how often to poll the REST API for new values
